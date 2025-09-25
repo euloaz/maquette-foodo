@@ -24,15 +24,15 @@
     </header>
     <main>
         <section id="home">
-            <div class="image">
-                <img src="./images/home-bg.jpg" alt="">
-            </div>
+            <div class="image"></div>
             <div class="text">
                 <div class="title">
                     <h1>FOODO RESTAURANT</h1>
                     <h2>CLEAN & SIMPLE DESIGN</h2>
                 </div>
-                <a href="#">LEARN MORE</a>
+                <div class="lien">
+                    <a href="#">LEARN MORE</a>
+                </div>
             </div>
         </section>
         <section id="gallery">
@@ -41,7 +41,7 @@
                 <div class="separator"></div>
             </div>
             <div class="container">
-                <div class="left">
+                <div class="left box">
                     <div class="card1 card">
                         <img src="./images/gallery-img1.jpg" alt="">
                         <div class="text">
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="center">
+                <div class="center box">
                     <div class="card3 card">
                         <img src="./images/gallery-img3.jpg" alt="">
                         <div class="text">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right box">
                     <div class="card4 card">
                         <img src="./images/gallery-img4.jpg" alt="">
                         <div class="text">
@@ -90,7 +90,7 @@
                 <div class="separator"></div>
             </div>
             <div class="menu">
-                <div class="left">
+                <div class="left box">
                     <div class="plat1 plat">
                         <h3>Lemon-Rosemary Vegetable ................ <span>$20.50</span></h3>
                         <p>Chicken / Rosemary / Lemon</p>
@@ -108,7 +108,7 @@
                         <p>Chicken / Rosemary/ Lemon</p>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right box">
                     <div class="plat1 plat">
                         <h3>Lemon-Rosemary meat ........................... <span>$30.50</span></h3>
                         <p>Chicken / Rosemary/ Lemon</p>
@@ -122,7 +122,7 @@
                         <p>Shrimp / Rosemary / Orange </p>
                     </div>
                     <div class="plat4 plat">
-                        <h3>Lemon-Rosemary Shrimp ..................... <span>$220.50</span></h3>
+                        <h3>Lemon-Rosemary Shrimp ...................... <span>$220.50</span></h3>
                         <p>Seafood / Rosemary / Lemon </p>
                     </div>
                 </div>
@@ -139,8 +139,10 @@
                         <input type="text" name="name" id="name" placeholder="Name">
                         <input type="email" name="email" id="email" placeholder="Email">
                     </div>
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                    <input type="submit" name="submit" id="submit" value="make a reservation">
+                    <div class="down">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <input type="submit" name="submit" id="submit" value="make a reservation">
+                    </div>
                 </form>
             </div>
         </section>
